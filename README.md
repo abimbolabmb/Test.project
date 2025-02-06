@@ -2,5 +2,5 @@
 
 <ul>
     <li><a href="html_basics/index.html" target="_blank">Intro to HTML</a></li>
-    <li><a href="css_basics/index.html" target="_blank">HTML5 intro to CSS</a></li>
+    <li><a href="html_to_css/index.html" target="_blank">HTML5 to CSS</a></li>
 </ul>
