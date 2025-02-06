@@ -1,3 +1,8 @@
 # CITC 1300 TEST PROJECT ABIMBOLA FANS PAGE
-<a href="html_basics/index.html" target="_blank">Intro to HTML</a>
-<a href="HTML5_intro_to_css/index.html" target="_blank">HTML and intro to css</a>
+
+<ul>
+<li><a href="html_basics/index.html" target="_blank">Intro to HTML</a></li>
+<li><a href="HTML5_intro_to_css/index.html" target="_blank">HTML and intro to css</a</li>
+</ul>
+
+>
