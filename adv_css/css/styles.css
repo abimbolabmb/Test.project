@@ -9,9 +9,25 @@ body {
     border: 2px solid black;
     padding: 20px;
 }
+
 #banner {
     width: 100%;
 }
+
+#col1 {
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#col2 {
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
 .heading_style {
     text-shadow: 2px 1px 2px #755b5b;
 }
@@ -57,6 +73,9 @@ nav a:hover {
     color: black
 }
 
+ #two_col {
+    display: flex;
+}
 
 h1,
 h2,
