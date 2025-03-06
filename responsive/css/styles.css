@@ -2,109 +2,149 @@
 
 body {
     background-color: #00537E;
-}
-
-img {
-    display: block;
-    margin: auto;
-    width: 100%; 
-    height: auto;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
 }
 
 #container {
     background-color: #62A658;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 1200px; /* Optional: Limits the width of the container */
 }
 
-/* Mobile styles */
+header {
+    background-color: #000;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
 
-@media (min-width: 320px) {
-    nav {
-        background-color: #000;
-        padding: 5px;
-        margin-top: 10px;
-        text-align: center;
-    }
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds space between navigation items */
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #B07067;
+    transition: background-color 0.3s ease;
+}
+
+nav li a:hover {
+    background-color: #AEDBDE;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section {
+    max-width: 800px; /* Optional: Limits the width of the section */
+    text-align: justify; /* Aligns text to the left */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #62A658;
+}
+
+main h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #000;
+    color: #472525;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Form Styles */
+
+form {
+    background-color: #62A658;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #B07067;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #AEDBDE;
+}
+
+/* Button Styles */
+
+button {
+    background-color: #B07067;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #AEDBDE;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 767px) {
     nav ul {
-        list-style-type: none;
-        padding: 0;
+        flex-direction: column;
+        align-items: center;
     }
-    nav {
-        display: block;
-    }
-    nav li a {
-        display: block;
-        height: 40px;
-        line-height: 40px;
-        background-color: #B07067;
-        color: white;
-        font-size: 24px;
-        text-decoration: none;
-        margin: 5px;
-    }
-    nav li a:hover {
-        background-color: #AEDBDE;
-    }
+
     main {
-        padding: 20px;
+        padding: 10px;
     }
-    h1, h2, h3 {
-        text-align: center;
-        color: #AEDBDE;
-        text-shadow: 1px 1px 1px #000;
+
+    main section {
+        padding: 10px;
     }
-    footer {
-        text-align: center;
-        padding: 40px;
-        color: #3286A8;
-        text-shadow: 1px 1px 1px #000;
-    }
-}
-
-/* Tablet Styles */
-
-@media (min-width: 768px) {
-    nav li {
-        display: inline-block;
-    }
-    nav li a {
-        width: 150px;
-        height: 50px;
-        line-height: 50px;
-        margin: 5px;
-        }
-        .crypto_post {
-            width: 85%;
-            border-radius: 10px;
-            box-shadow: 3px 3px 3px #000;
-
-        }
-}
-
-/* Desktop Styles */
-
-@media (min-width: 1024px) {
-    #container {
-        width: 65%;
-        margin: 20px auto;
-        border: 4px solid black;
-        border-radius: 20px;
-            }
-            nav {
-                padding: 0;
-                margin-top: 0;
-            }
-            nav li a {
-                background-color: black;
-                        }
-                        hr {
-                            display: none;
-                        }
-                        #multi_col {
-                            display: flex;
-                        }
-                        .col {
-                            margin: 20px;
-                            padding: 20px;
-                            border: 2px solid black;
-                        }
 }
