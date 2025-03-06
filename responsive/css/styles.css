@@ -2,7 +2,7 @@
 
 body {
     background-color: #00537E;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #ffffff;
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    max-width: 1200px; /* Optional: Limits the width of the container */
+    max-width: 1200px;
 }
 
 header {
@@ -34,7 +34,7 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 20px; /* Adds space between navigation items */
+    gap: 20px;
 }
 
 nav li {
@@ -62,8 +62,8 @@ main {
 }
 
 main section {
-    max-width: 800px; /* Optional: Limits the width of the section */
-    text-align: justify; /* Aligns text to the left */
+    max-width: 800px;
+    text-align: justify;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -80,56 +80,6 @@ footer {
     padding: 10px 0;
     text-align: center;
     margin-top: 20px;
-}
-
-/* Form Styles */
-
-form {
-    background-color: #62A658;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-form label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    background-color: #B07067;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #AEDBDE;
-}
-
-/* Button Styles */
-
-button {
-    background-color: #B07067;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #AEDBDE;
 }
 
 /* Responsive Styles */
